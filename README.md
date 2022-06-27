@@ -20,3 +20,18 @@ This is of course Python, because Blender is Python.
 * [Starting with Python](https://www.python.org/about/gettingstarted/)
 * [Quickstart with Blender API](https://docs.blender.org/api/current/info_quickstart.html)
 * [Full Blender API Doc.](https://docs.blender.org/api/current/)
+
+## Some explanation about the material file
+This is the hierarchy of a material file:
+- `map.obj`
+- `map.mtl`
+  - `material_1` (viewable into Blender)
+  - `material_2` (viewable into Blender)
+  - etc...
+- `tex_256_C.png`
+- `tex_256_R.png`
+- `tex_257_C.png`
+- `tex_257_S.png`
+- etc...  
+
+That's all you need to know, the mtl file contains the material data for every mesh and submeshes of a model
