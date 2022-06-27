@@ -6,7 +6,9 @@ Blend-PS3Textures is a plugin for Blender that allow people to use exported maps
   - `1654_S.bmp` (Specular)
   - `1654_R.bmp` (Rougness)
   - (In reality I don't know yet how the textures are)  
+
 This will make a material file `map.mtl` that link all the textures of the map `map.obj`, and show the right materials into the engine (blender, etc...)  
+
 ⚠ The loading may take a while, or can crash on some low configs. Be careful before using it, make a backup of the map files.
 
 ## Important stuff
