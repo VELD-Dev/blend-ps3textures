@@ -25,10 +25,10 @@ This is of course Python, because Blender is Python.
 This is the hierarchy of a material file:
 - `map.obj`
 - `map.mtl`
-  - `material_1` (viewable into Blender)
+  - `material_256` (viewable into Blender)
     - link to `tex_256_C` as `base_colour`
     - link to `tex_256_R` as `roughness`
-  - `material_2` (viewable into Blender)
+  - `material_257` (viewable into Blender)
     - link to `tex_257_C` as `base_coulour`
     - link to `tex_257_S` as `specular`
   - etc...
