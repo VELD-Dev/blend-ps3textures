@@ -39,3 +39,7 @@ This is the hierarchy of a material file:
 - etc...  
 
 That's all you need to know, the mtl file contains the material data for every mesh and submeshes of a model
+
+# Software info
+**Python version**: `v3.10.5`  
+**Blender version**: `v3.2.0`  
