@@ -3,7 +3,7 @@ Blend-PS3Textures (but I call it PS3T `/pset/`) is a plugin for Blender that all
 - Ratchet & Clank: Tools of Destruction has these textures: 
   - `1654_C.bmp` (Base Colour)
   - `1654_N.bmp` (Normals)
-  - `1654_S.bmp` (Specular/Rougness)
+  - `1654_E.bmp` (Specular/Rougness/Metalness/Emissive) \[**INSOMNIAC ENGINE 2.0** and **3.0**]
 
 This will make a material file `map.mtl` that link all the textures of the map `map.obj`, and show the right materials into the engine (blender, etc...)  
 
