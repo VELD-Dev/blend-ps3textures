@@ -4,8 +4,7 @@ Blend-PS3Textures (but I call it PS3T `/pset/`) is a plugin for Blender that all
   - `1654_C.bmp` (Base Colour)
   - `1654_N.bmp` (Normals)
   - `1654_S.bmp` (Specular)
-  - `1654_R.bmp` (Rougness)
-  - (In reality I don't know yet how the textures are)  
+  - `1654_R.bmp` (Rougness) 
 
 This will make a material file `map.mtl` that link all the textures of the map `map.obj`, and show the right materials into the engine (blender, etc...)  
 
