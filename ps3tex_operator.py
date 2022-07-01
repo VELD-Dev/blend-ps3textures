@@ -7,7 +7,7 @@ def main(context):
 class PS3TexGeneratorOperator(Operator):
     """PS3 Texture Generator Operator class"""
     bl_idname = "object.ps3tex_generator"
-    bl_label = "Blend PS3Texture Generator"
+    bl_label = "Generate Materials"
     
     @classmethod
     def poll(self, context):
