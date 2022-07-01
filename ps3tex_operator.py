@@ -4,8 +4,8 @@ def main(context):
     for ob in context.scene.objects:
         print(ob)
         
-class GeneratorOperator(Operator):
-    """Tooltip"""
+class PS3TexGeneratorOperator(Operator):
+    """PS3 Texture Generator Operator class"""
     bl_idname = "object.ps3tex_generator"
     bl_label = "Blend PS3Texture Generator"
     
@@ -18,4 +18,4 @@ class GeneratorOperator(Operator):
         return {'FINISHED'}
     
 def menu_func(self, context):
-    self.layout.operator(Generator.bl_idname, text=Generator.bl_label)
+    self.layout.operator(PS3TexGeneratorOperator.bl_idname, text=PS3TexGeneratorOperator.bl_label)

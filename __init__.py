@@ -17,11 +17,11 @@ print("hello world")
 
 if "bpy" in locals():
     import importlib
-    importlib.reload(operator)
+    importlib.reload(ps3tex_operator)
 else:
-    from . import operator
+    from . import ps3tex_operator
 
-global bpy
+import bpy
 from bpy.types import (Panel, Operator, ThemeTopBar)
 
 class PS3TexPanel(Panel):
@@ -36,7 +36,7 @@ class PS3TexPanel(Panel):
         layout = self.layout
         obj = context.object
         row = layout.row()
-        row.operator(GeneratorOperator.bl_idname, text=GeneratorOperator.bl_label, icon="OUTLINER_OB_LIGHTPROBE")
+        row.operator(ps3tex_operator.PS3TexGeneratorOperator.bl_idname, text=ps3tex_operator.PS3TexGeneratorOperator.bl_label, icon="OUTLINER_OB_LIGHTPROBE")
         #ICON: OUTLINER_OB_LIGHTPROBE
 
 
@@ -44,7 +44,7 @@ from bpy.utils import register_class, unregister_class
 
 
 classes = [
-    operator.GeneratorOperator,
+    ps3tex_operator.PS3TexGeneratorOperator,
     PS3TexPanel
 ]
 
