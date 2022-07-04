@@ -3,7 +3,7 @@
 bl_info = {
     "name": "Blend PS3Texture",
     "author": "VELD-Dev",
-    "version": (0, 0, 1),
+    "version": (0, 0, 21),
     "blender": (3, 2, 0),
     "location": "File > PS3Texture > Generate Materials",
     "description": ("Tool to generate all the materials for a model, mostly for an entire map from "
@@ -27,11 +27,10 @@ from bpy.types import (Panel, Operator, ThemeTopBar)
 
 class PS3TexPanel(Panel):
     """Panel of Blend PS3Texture"""
-    bl_label = "PS3Texture"
-    bl_idname = "OBJECT_PT_generate_ps3tex"
-    bl_space_type = "PROPERTIES"
-    bl_region_type = "WINDOW"
-    bl_context = "object"
+    bl_label = "Blend PS3Texture"
+    bl_idname = "HEADER_PT_generate_ps3tex"
+    bl_space_type = "TOPBAR"
+    bl_region_type = "HEADER"
     
     def draw(self, context):
         layout = self.layout

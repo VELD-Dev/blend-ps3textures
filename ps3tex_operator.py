@@ -11,7 +11,7 @@ class PS3TexGeneratorOperator(Operator):
     
     @classmethod
     def poll(self, context):
-        return context.archive_object is not None
+        return context.active_object is not None
     
     def execute(self, context):
         main(context)
