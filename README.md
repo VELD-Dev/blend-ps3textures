@@ -28,10 +28,10 @@ This is the hierarchy of a material file:
 - `map.mtl`
   - `material_256` (viewable into Blender)
     - link to `tex_256_C` as `base_colour`
-    - link to `tex_256_E` as `roughness`
+    - link to `tex_256_E` as `roughness+specular`
   - `material_257` (viewable into Blender)
     - link to `tex_257_C` as `base_coulour`
-    - link to `tex_257_E` as `specular`
+    - link to `tex_257_E` as `specular_(only)`
     - link to `tex_257_N` as `normals`
   - etc...
 - `tex_256_C.png`
