@@ -28,15 +28,17 @@ This is the hierarchy of a material file:
 - `map.mtl`
   - `material_256` (viewable into Blender)
     - link to `tex_256_C` as `base_colour`
-    - link to `tex_256_R` as `roughness`
+    - link to `tex_256_E` as `roughness`
   - `material_257` (viewable into Blender)
     - link to `tex_257_C` as `base_coulour`
-    - link to `tex_257_S` as `specular`
+    - link to `tex_257_E` as `specular`
+    - link to `tex_257_N` as `normals`
   - etc...
 - `tex_256_C.png`
-- `tex_256_R.png`
+- `tex_256_E.png`
 - `tex_257_C.png`
-- `tex_257_S.png`
+- `tex_257_E.png`
+- `tex_257_N.png`
 - etc...  
 
 That's all you need to know, the mtl file contains the material data for every mesh and submeshes of a model
