@@ -28,16 +28,15 @@ from bpy.types import (Panel, Operator, ThemeTopBar)
 class PS3TexPanel(Panel):
     """Panel of Blend PS3Texture"""
     bl_label = "Blend PS3Texture"
-    bl_idname = "HEADER_PT_generate_ps3tex"
-    bl_space_type = "TOPBAR"
-    bl_region_type = "HEADER"
+    bl_idname = "VIEW3D_PT_generate_ps3tex"
+    bl_space_type = "VIEW_3D"
+    bl_region_type = "UI"
     
     def draw(self, context):
         layout = self.layout
-        obj = context.object
-        row = layout.row()
-        row.operator(ps3tex_operator.PS3TexGeneratorOperator.bl_idname, text=ps3tex_operator.PS3TexGeneratorOperator.bl_label, icon="OUTLINER_OB_LIGHTPROBE")
-        #ICON: OUTLINER_OB_LIGHTPROBE
+
+        layout.operator("wm.open_mainfile")
+        layout.operator("wm.save_as_mainfile")
 
 
 from bpy.utils import register_class, unregister_class
