@@ -1,6 +1,6 @@
 # The Blend-PS3Textures have been discontinued !
 [**Click here to go to the new equivalent !**](https://github.com/VELD-Dev/raclette-and-tank "Raclette & Tank Importer")  
-**Raclette & Tank Importer** is a Blender plugin made to extract maps/levels from **Ratchet & Clank games (and optional Resistance 2 and 3)**, direclty from the source files.  
+**Raclette & Tank Importer** is a Blender plugin made to extract maps/levels from **Ratchet & Clank games (and optionally Resistance 2 and 3)**, direclty from the source files.  
 The main point of it is to do what [**Lunacy Level Editor**](https://github.com/NefariousTechSupport/Lunacy "Nefarious Tech Support's Lunacy Level Editor") doesn't do, so entire level exporting, etc.  
 Yes, because **Lunacy** is a **Level-Editor**, not a **Level-Exporter**, so here's **Raclette & Tank Importer**, made to extract maps from R&C Future series games, and put it right into you Blender Project.  
 This plugin is especially made for fans who want to make animations, "SFM" music clips, and even fangames.  
